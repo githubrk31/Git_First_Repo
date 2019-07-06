@@ -3,18 +3,19 @@ package com.operations;
 public class Product {
 	
 	private String name;
-	private int number;
+	private String rollno;
+	public String getRollno() {
+		return rollno;
+	}
+	public void setRollno(String rollno) {
+		this.rollno = rollno;
+	}
 	public String getName() {
 		return name;
 	}
 	public void setName(String name) {
 		this.name = name;
 	}
-	public int getNumber() {
-		return number;
-	}
-	public void setNumber(int number) {
-		this.number = number;
-	}
+
 
 }

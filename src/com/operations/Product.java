@@ -3,12 +3,12 @@ package com.operations;
 public class Product {
 	
 	private String name;
-	private String rollno;
+	private String marks;
 	public String getRollno() {
-		return rollno;
+		return marks;
 	}
 	public void setRollno(String rollno) {
-		this.rollno = rollno;
+		this.marks = marks;
 	}
 	public String getName() {
 		return name;
